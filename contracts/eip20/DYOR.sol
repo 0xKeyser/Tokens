@@ -3,7 +3,7 @@ Implements EIP20 token standard: https://github.com/ethereum/EIPs/blob/master/EI
 .*/
 
 
-pragma solidity ^0.4.21;
+pragma solidity ^0.6.0;
 
 import "./EIP20Interface.sol";
 
