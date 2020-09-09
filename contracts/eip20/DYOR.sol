@@ -8,7 +8,7 @@ pragma solidity ^0.4.21;
 import "./EIP20Interface.sol";
 
 
-contract YLOL is EIP20Interface {
+contract XXX is EIP20Interface {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
     mapping (address => uint256) public balances;
@@ -18,7 +18,7 @@ contract YLOL is EIP20Interface {
     uint8 public decimals;                
     string public symbol;                 
 
-    function YLOL(
+    function XXX(
         uint256 _initialAmount,
         string _tokenName,
         uint8 _decimalUnits,
