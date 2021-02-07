@@ -1,10 +1,10 @@
 /**
- *Submitted for verification at Etherscan.io on 2021-02-07
+ *Submitted for verification at Etherscan.io on 20XX-XX-XX
 */
 
-// hoge.finance (HOGE)
-// HOGE defistify dogecoin, it’s doge but DeFi
-// HOGE is a deflationary farming meme powered currency
+// XXXX
+// XXXX
+// XXXX
 
 
 // SPDX-License-Identifier: Unlicensed
@@ -425,7 +425,7 @@ contract Ownable is Context {
 
 
 
-contract HOGE is Context, IERC20, Ownable {
+contract XXX is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -441,8 +441,8 @@ contract HOGE is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'hoge.finance';
-    string private _symbol = 'HOGE';
+    string private _name = 'XXX';
+    string private _symbol = 'XXX';
     uint8 private _decimals = 9;
 
     constructor () public {
