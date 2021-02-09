@@ -1,5 +1,8 @@
-// Neonium.Finance (NEON) DeFi by Default. 
-// Gaining 2% transaction fee by just holding. 
+// Neonium.Finance (NEON) DeFi by Default
+// Gaining 2% transaction fee by just holding
+
+
+// SPDX-License-Identifier: Unlicensed
 
 pragma solidity ^0.6.12;
 
