@@ -1,13 +1,5 @@
-/**
- *Submitted for verification at Etherscan.io on 20XX-XX-XX
-*/
-
-// XXXX
-// XXXX
-// XXXX
-
-
-// SPDX-License-Identifier: Unlicensed
+// Neonium.Finance (NEON) DeFi by Default. 
+// Gaining 2% transaction fee by just holding. 
 
 pragma solidity ^0.6.12;
 
@@ -425,7 +417,7 @@ contract Ownable is Context {
 
 
 
-contract XXX is Context, IERC20, Ownable {
+contract NEON is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -437,12 +429,12 @@ contract XXX is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private constant _tTotal = 1000000 * 10**6 * 10**9;
+    uint256 private constant _tTotal = 300 * 10**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'XXX';
-    string private _symbol = 'XXX';
+    string private _name = 'Neonium.Finance';
+    string private _symbol = 'NEON';
     uint8 private _decimals = 9;
 
     constructor () public {
